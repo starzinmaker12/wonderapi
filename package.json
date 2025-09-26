@@ -2,19 +2,14 @@
   "name": "wonders",
   "version": "1.0.0",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "type": "module",
   "dependencies": {
     "@discordjs/rest": "^2.6.0",
     "argon2": "^0.44.0",
-    "better-sqlite3": "^12.4.1",
     "cors": "^2.8.5",
     "discord-api-types": "^0.38.26",
     "discord.js": "^14.22.1",
